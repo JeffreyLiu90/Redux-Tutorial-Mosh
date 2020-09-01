@@ -1,8 +1,7 @@
 import * as actions from "./actionTypes";
 
+let lastId = 0;
 export default function reducer(state = [], action) {
-  let lastId = 0;
-
   switch (action.type) {
     case actions.BUG_ADDED:
       return [
