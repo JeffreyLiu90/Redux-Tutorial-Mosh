@@ -1,7 +1,7 @@
 import { configureStore } from "@reduxjs/toolkit";
-import reducer from "./bugs";
+import reducer from "./projects";
 
-// Create store is higher order functiona s it takes function as arg
+// Create store is higher order function as it takes function as arg
 
 // Store enhancer to talk to devtools
 
